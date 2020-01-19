@@ -1,0 +1,275 @@
+@font-face {
+font-family: MAZIUS;
+src: url('maziusreview20.09-regular-webfont.woff') format('woff'); }
+
+@font-face {
+font-family: ADIEU;
+src: url('ADIEU-Regular.woff') format('woff'); }
+
+html, body {
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	background: linear-gradient(180deg, #ffffff  50%, grey 100%);
+}
+
+.active {
+  text-decoration: underline;
+  transition: all 0s linear;
+}
+
+
+div.landingdiv {
+	background-repeat: no-repeat;
+    background-size: 100vw auto;
+	background-image: url('6.png'), 
+	linear-gradient(180deg, lightgrey  50%, #ffffff 100%);
+	position: relative;
+	height: auto;
+	width: auto;
+	margin: 0;
+	z-index: 2;
+}
+
+div.divtitle{
+	position: relative;
+	margin: 0;
+	height: 100vh;
+}
+
+p.title {
+	margin-top: 2vh;
+	margin-right: 2vh;
+	margin-left: 3vh;
+	margin-bottom: 2vh;
+	font-family: MAZIUS;
+	font-size: 6em; 
+	line-height: 0.8em;
+	position: absolute;
+	bottom: 0;
+	color: white;
+}
+
+div.divcredits {
+	position: relative;
+	float: right;
+	right: 0;
+}
+
+p.credits {
+	font-family: MAZIUS;
+	font-size: 0.8em; 
+	margin-top: 2vh;
+	margin-right: 2vh;
+	margin-left: 2vh;
+	margin-bottom: 2vh;
+	color: white;
+}
+
+div.diveditorial {
+	background: transparent;
+	position: relative; 
+	z-index: 2;
+	height: auto;
+}
+	
+p.editorial {
+	font-family: MAZIUS;
+	font-size: 3em; 
+	margin-top: 2vh;
+	margin-left: 3vh;
+	margin-right: 2vh;
+	margin-bottom: 2vh;
+	max-width: 20em;
+}
+
+
+div.links {
+	background-color: transparent;
+	width: 40vh;
+	top: 0vh;
+	right: 0vh;
+	position: fixed;
+	z-index: 1;
+}
+
+div.backtotop {
+	background-color: transparent;
+	width: 3vh;
+	height: 3vh;
+	bottom: 4vh;
+	right: 3vh;
+	position: fixed;
+	z-index: 1;
+}
+#div {
+	visibility: visible;
+}
+
+#back {
+	font-family: ADIEU;
+	font-size: 1.8em;
+	cursor: none;
+	text-decoration: none;
+	transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  	opacity: 0;
+  	visibility: hidden;
+  	z-index: 1;
+}
+
+#back:hover {
+	cursor: none;
+	text-decoration: underline;
+}
+
+#back.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+p.menu {
+	position: fixed;
+	font-family: ADIEU;
+	font-size: 1em;
+	z-index: 0;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	transition: all 0s linear;
+}
+
+a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.divparticipation {
+	cursor: url("cursorr.svg"), default;
+	position: relative;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-bottom: 0vh;
+	z-index: 0;
+	display: block;
+	height: auto;
+	width: 100vw;
+}
+
+#canvas {
+	position: absolute;
+	left: 0;
+	z-index: -1;
+    margin: 0px auto;
+}
+
+div.divfarewell {
+	cursor: url("cursorr.svg"), none;
+	background-color: transparent;
+	position: relative;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-bottom: 0;
+	z-index: 0;
+	display: block;
+	height: auto;
+	width: 100vw;
+}
+
+div.divpublic {
+	cursor: url("cursorr.svg"), none;
+	background-color: transparent;
+	position: relative;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-bottom: 0;
+	z-index: 0;
+	display: block;
+}
+
+div.divbecoming {
+	cursor: url("cursorr.svg"), none;
+	background-color: transparent;
+	position: relative;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-bottom: 0;
+	z-index: 0;
+	display: block;
+}
+
+div.divnude {
+	cursor: url("cursorr.svg"), none;
+	background-color: transparent;
+	position: relative;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-bottom: 0;
+	z-index: 0;
+	display: block;
+}
+
+div.footer {
+	background-color: transparent;
+	position: relative;
+	margin-top: 2vh;
+	z-index: 0;
+	height: 2vh;
+	display: block;
+	padding-bottom: 2vh;
+}
+
+p.footertext {
+	font-family: ADIEU;
+	font-size: 0.5em;
+	padding-bottom: 1vh;
+	margin-top: 0;
+	margin-left: 3vh;
+	margin-right: 2vh;
+}
+
+
+p.project {
+	color: black;
+	font-family: MAZIUS;
+	font-size: 2em;
+	margin-bottom:0;
+	padding-top: 5vh;
+	margin-left: 3vh;
+	margin-right: 2vh;
+}
+
+
+p.text {
+	font-family: MAZIUS;
+	font-size: 1.2em;
+	max-width: 45em;
+	margin-left: 3vh;
+	margin-right: 2vh;
+}
+
+a#links:link{
+	text-decoration: underline;
+	color: black;
+}
+
+a#links:hover{
+	text-decoration: none;
+	color: black;
+}
+
+a#links:visited{
+	text-decoration: underline;
+	color: black;
+}
